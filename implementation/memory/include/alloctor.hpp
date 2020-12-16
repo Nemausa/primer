@@ -22,4 +22,8 @@ void  operator delete[](void *_delete);
 void *mem_alloc(size_t size);
 void  mem_free(void *_free);
 
+
+
+
+
 #endif // ALLOCTOR
