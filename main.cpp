@@ -1,5 +1,5 @@
-#include <alloctor.h>
-#include <memory_mg.hpp>
+#include <memory/include/alloctor.hpp>
+
 
 int main() {
     int *a = new int;

@@ -1,5 +1,5 @@
-#include "alloctor.h"
-#include "memory_mg.hpp"
+#include "../include/alloctor.hpp"
+#include "../include/memory_mg.hpp"
 
 void *operator new(size_t _size) {
     return memory_manage::instance().alloc_memory(_size);
