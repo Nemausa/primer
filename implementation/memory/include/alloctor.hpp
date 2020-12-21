@@ -15,6 +15,8 @@
 #ifndef ALLOCTOR
 #define ALLOCTOR
 
+#pragma warning(disable : 4477)
+
 void *operator new(size_t _size);
 void  operator delete(void *_delete);
 void *operator new[](size_t _size);

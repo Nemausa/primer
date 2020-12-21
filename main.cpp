@@ -1,8 +1,7 @@
-#include <memory/include/alloctor.hpp>
+#include <memory/include/application.hpp>
 
 
 int main() {
-    int *a = new int;
-    *a = 11;
+    memory::main();
     return 0;
 }
